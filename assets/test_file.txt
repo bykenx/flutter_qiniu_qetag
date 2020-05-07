@@ -1,0 +1,6 @@
+This is a file for test `getQetag`.
+
+####################################
+Not modify it!
+####################################
+# This is a dart implement of `https://github.com/qiniu/qetag/blob/master/qetag.py`
