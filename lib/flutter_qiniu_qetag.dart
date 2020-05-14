@@ -25,7 +25,7 @@ getIoQetag(Uint8List fio) {
     flag |= 0x80;
     bufBytes = sha1.convert(bufBytes).bytes;
   }
-  return base64.encode([flag] + bufBytes);
+  return base64Url.encode([flag] + bufBytes);
 }
 
 getQetag(String path) {
