@@ -4,6 +4,6 @@ import 'package:flutter_qiniu_qetag/flutter_qiniu_qetag.dart';
 
 void main() {
   test('adds one to input values', () {
-    expect(getQetag('assets/test_file.txt'), 'FhSjGK2aKedtzpSgJsFFhUwLekAN');
+    expect(getQetag('../assets/test_file.txt'), 'FhSjGK2aKedtzpSgJsFFhUwLekAN');
   });
 }
